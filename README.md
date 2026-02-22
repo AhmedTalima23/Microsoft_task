@@ -67,9 +67,8 @@ The tool will print only the generated unit tests.
 🔹 Example Output
 
 For the function add(a, b), the tool may generate:
-
+```bash
 import unittest
-
 class TestAdd(unittest.TestCase):
     def test_add_positive(self):
         self.assertEqual(add(2, 3), 5)
